@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graphs_sshrestha"
+version = "0.0.1"
+authors = [
+  { name="Sagun Shrestha", email="sshres34@msudenver.edu" },
+]
+description = "A python library implementing Dijkstra's shortest path algorithm"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sagun1151/graphs_sshrestha"
+"Bug Tracker" = "https://github.com/sagun1151/graphs_sshrestha/issues"
